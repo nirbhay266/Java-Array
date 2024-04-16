@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class p7Largest {
     public static int largest(int number[])
     {
