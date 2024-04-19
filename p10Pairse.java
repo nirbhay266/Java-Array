@@ -8,7 +8,7 @@ public class p10Pairse {
             int curr=numbers[i];
             for(int j=i+1;j<numbers.length;j++)
             {
-                System.out.print("("+curr+","+numbers[j]+")");
+                System.out.print("(" +curr+ "," +numbers[j]+ ")");
                 tp++;
             }
             System.out.println();
