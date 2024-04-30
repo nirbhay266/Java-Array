@@ -13,7 +13,7 @@ public class p6 {
         int l = sc.nextInt();
         for(int i=0;i<5;i++)
         {
-            if(n[i]>l)
+            if(n[i]==n[i+1])
             {
                 
                 System.out.print(l);

@@ -25,7 +25,7 @@ public class p8BinarySearch {
     }
     public static void main(String[] args) {
         int number[]={2,4,6,8,10,12,14};
-        int key=12;
+        int key=2;
         System.out.println("Index for key: " +BinarySearch(number, key));
     }
 }
