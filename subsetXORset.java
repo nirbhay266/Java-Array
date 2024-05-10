@@ -1,6 +1,9 @@
 public class subsetXORset {
-    
-        public int subsetXORSum(int[] nums) {
+
+    public subsetXORset(int[] nums) {
+    }
+
+    public int subsetXORSum(int[] nums) {
     
             int sum = 0;
             for (int i= 1 ;i<1<<nums.length;++i){
@@ -12,5 +15,10 @@ public class subsetXORset {
             }
             return sum;
             
+        }
+        public static void main(String[] args)
+        {
+            int[] nums={3,4,6,3,5};
+            System.out.println(new subsetXORset(nums));
         }
     }
